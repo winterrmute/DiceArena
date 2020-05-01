@@ -5,19 +5,12 @@ const template = document.createElement('template');
 
 template.innerHTML = `
     <style>
-        div {
-            font-family: Helvetica, sans-serif;
-        }
         div.content {
             display: block;
         }
         div.participants {
-            float: left;
         }
         div.toolbar {
-            position: fixed;
-            bottom: 0;
-            right: 0;
         }
     </style>
 

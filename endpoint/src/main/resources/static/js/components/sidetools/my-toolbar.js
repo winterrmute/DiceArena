@@ -4,12 +4,11 @@ const template = document.createElement('template');
 
 template.innerHTML = `
     <style>
-        div {
-            font-family: Helvetica, sans-serif;
-        }
         div.content{
             max-width: 5em;
-            float: right;
+            position: fixed;
+            bottom: 0;
+            right: 0;
         }
     </style>
     

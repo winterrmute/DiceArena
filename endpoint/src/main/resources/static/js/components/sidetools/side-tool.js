@@ -2,12 +2,8 @@ const template = document.createElement('template');
 
 template.innerHTML = `
     <style>
-        div {
-            font-family: Helvetica, sans-serif;
-        }
         div.content{
             padding: 10px;
-            float: right;
         }
         div.button {
             border: 2px solid black;

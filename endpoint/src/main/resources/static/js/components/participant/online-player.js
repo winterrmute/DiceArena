@@ -5,9 +5,6 @@ const template = document.createElement('template');
 
 template.innerHTML = `
     <style>
-        div {
-            font-family: Helvetica, sans-serif;
-        }
         div.content{
             display: flex;
         }

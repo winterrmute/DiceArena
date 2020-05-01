@@ -4,9 +4,6 @@ const template = document.createElement('template');
 
 template.innerHTML = `
     <style>
-        div {
-            font-family: Helvetica, sans-serif;
-        }
         div.content{
             max-width: 6em;
         }
